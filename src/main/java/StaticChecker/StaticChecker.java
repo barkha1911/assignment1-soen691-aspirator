@@ -1,5 +1,7 @@
 package StaticChecker;
 
+import com.github.javaparser.JavaParser;
+
 public class StaticChecker {
 
 
@@ -10,6 +12,7 @@ public class StaticChecker {
      */
     public static boolean emptyErrorChecker(String codeBlock) {
         //if catch block is empty, return true
+       // JavaParser.parse()
         return false;
     }
 
